@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_PassingDataUsingViewBagTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_FormsWithValidationsTask", "5_FormsWithValidationsTask\5_FormsWithValidationsTask.csproj", "{43C2BF0B-B02A-442A-B411-0AC46FB3F294}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_EFCodeFirstCRUDTask", "6_EFCodeFirstCRUDTask\6_EFCodeFirstCRUDTask.csproj", "{9E0F2CC7-2186-4AFF-AD89-A52997E55C59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{43C2BF0B-B02A-442A-B411-0AC46FB3F294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43C2BF0B-B02A-442A-B411-0AC46FB3F294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C2BF0B-B02A-442A-B411-0AC46FB3F294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0F2CC7-2186-4AFF-AD89-A52997E55C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0F2CC7-2186-4AFF-AD89-A52997E55C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0F2CC7-2186-4AFF-AD89-A52997E55C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0F2CC7-2186-4AFF-AD89-A52997E55C59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
