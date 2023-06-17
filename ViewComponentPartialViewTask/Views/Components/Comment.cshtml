@@ -1,0 +1,21 @@
+﻿@model ICollection<CommentViewModel>
+
+<div class="border border-3 p-5">
+    @if (Model != null)
+    {
+        <div class="d-inline">
+            <h3>Comments <span class="badge bg-info">@Model.Count()</span></h3>
+        </div>
+
+        @foreach (var item in Model)
+        {
+            <h5>@item.Name</h5>
+            <div>@item.Email</div>
+            <p>@item.Body</p>
+        }
+    }
+    else
+    {
+        <p>No Comment found!</p>
+    }
+</div>
