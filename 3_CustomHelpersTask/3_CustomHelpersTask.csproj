@@ -7,4 +7,8 @@
     <RootNamespace>_3_CustomHelpersTask</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
+  </ItemGroup>
+
 </Project>
