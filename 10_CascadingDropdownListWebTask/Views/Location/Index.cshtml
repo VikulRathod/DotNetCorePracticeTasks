@@ -1,0 +1,54 @@
+﻿<div class="row">
+    <div class="col-md-6">
+        <h2>Cascading Dropdown List</h2>
+        <div class="form-group">
+            <label>Country</label>
+            <select class="form-control" id="Country">
+                <option>--Select Country--</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>City</label>
+            <select class="form-control" id="City">
+                <option>--Select City--</option>
+            </select>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            GetCountry();
+            $('#City').attr('disabled', true);
+
+            $('#Country').change(function () {
+                $('#City').attr('disabled', false);
+                var id = $(this).val();
+                $('#City').empty();
+                $('#City').append('<Option>--Select City--</Option>');
+                $.ajax({
+                    url: '/Location/City?id=' + id,
+                    success: function (result) {
+                        $.each(result, function (i, data) {
+                            $('#City').append('<Option value='
+                                + data.cityId + '>' + data.name + '</Option>')
+                        });
+                    }
+                });
+            });
+        });
+
+        function GetCountry() {
+            $.ajax({
+                url: '/Location/Country',
+                success: function (result) {
+                    $.each(result, function (i, data) {
+                        $('#Country').append('<Option value='
+                            + data.countryId + '>' + data.name + '</Option>')
+                    });
+                }
+            });
+        }
+    </script>
+ } 
