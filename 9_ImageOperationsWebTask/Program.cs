@@ -1,7 +1,15 @@
+using _9_ImageOperationsDAL;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ImageOperationsTaskDBContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ImageOperationsTaskDBContext"));
+});
 
 var app = builder.Build();
 
