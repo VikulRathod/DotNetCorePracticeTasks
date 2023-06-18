@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_ImageOperationsWebTask", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_ImageOperationsDAL", "9_ImageOperationsDAL\9_ImageOperationsDAL.csproj", "{F8028E54-38C6-4B42-BB31-83F67179E1EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CascadingDropdownListWebTask", "10_CascadingDropdownListWebTask\10_CascadingDropdownListWebTask.csproj", "{B44EC292-F93D-4FFB-871B-0CA7DD07EE59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CascadingDropdownListDAL", "10_CascadingDropdownListDAL\10_CascadingDropdownListDAL.csproj", "{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{F8028E54-38C6-4B42-BB31-83F67179E1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8028E54-38C6-4B42-BB31-83F67179E1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8028E54-38C6-4B42-BB31-83F67179E1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44EC292-F93D-4FFB-871B-0CA7DD07EE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44EC292-F93D-4FFB-871B-0CA7DD07EE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44EC292-F93D-4FFB-871B-0CA7DD07EE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44EC292-F93D-4FFB-871B-0CA7DD07EE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
