@@ -1,0 +1,92 @@
+﻿@using X.PagedList;
+@*@model IEnumerable<_11_SearchSortPagingTask.Models.EmployeeViewModel>*@
+@model EmployeeModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Employee List</h1>
+
+<div class="d-inline">
+    <a asp-action="Create">Create New</a>
+    <form asp-action="Index" class="float-end">
+        <div class="input-group mb-3">
+            <input type="text" name="search" class="form-control" placeholder="Search Employee" 
+            aria-label="Search Employee" aria-describedby="btnSearch" value="@ViewBag.Search">
+            <button class="btn btn-info btn-outline-secondary" type="submit" id="btnSearch">Search</button>
+        </div>
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Employees.FirstOrDefault().Name)*@
+                <a asp-action="Index" asp-route-sortColumn="Name" asp-route-sortOrder="@ViewBag.SortOrderName">
+                    @Html.DisplayNameFor(model => model.Employees.FirstOrDefault().Name)
+                </a>
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Employees.FirstOrDefault().Address)*@
+                <a asp-action="Index" asp-route-sortColumn="Address" asp-route-sortOrder="@ViewBag.SortOrderAddress">
+                    @Html.DisplayNameFor(model => model.Employees.FirstOrDefault().Address)
+                </a>
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Employees.FirstOrDefault().DepartmentId)*@
+                <a asp-action="Index" asp-route-sortColumn="DepartmentId" asp-route-sortOrder="@ViewBag.SortOrderDepartmentId">
+                    @Html.DisplayNameFor(model => model.Employees.FirstOrDefault().DepartmentId)
+                </a>
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Employees.FirstOrDefault().DepartmentName)*@
+                <a asp-action="Index" asp-route-sortColumn="DepartmentName" asp-route-sortOrder="@ViewBag.SortOrderDepartmentName">
+                    @Html.DisplayNameFor(model => model.Employees.FirstOrDefault().DepartmentName)
+                </a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Employees)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepartmentName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <span>Showing page @Model.CurrentPage of @Model.TotalPages</span>
+
+    @if (Model.Employees.HasPreviousPage)
+    {
+        <a asp-action="Index" asp-route-page="1">First</a>
+        <a asp-action="Index" asp-route-page="@(Model.CurrentPage - 1)">Previous</a>
+    }
+
+    @if (Model.Employees.HasNextPage)
+    {
+        <a asp-action="Index" asp-route-page="@(Model.CurrentPage + 1)">Next</a>
+        <a asp-action="Index" asp-route-page="@Model.TotalPages">Last</a>
+    }
+</div>

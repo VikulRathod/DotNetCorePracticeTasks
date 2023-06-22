@@ -15,23 +15,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_FormsWithValidationsTask"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_EFCodeFirstCRUDTask", "6_EFCodeFirstCRUDTask\6_EFCodeFirstCRUDTask.csproj", "{9E0F2CC7-2186-4AFF-AD89-A52997E55C59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_EFCodeFirstCRUDDAL", "6_EFCodeFirstCRUDDAL\6_EFCodeFirstCRUDDAL.csproj", "{1F64E951-D362-4F5E-B28D-0B191DC2F902}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_EFCodeFirstCRUDDAL", "6_EFCodeFirstCRUDDAL\6_EFCodeFirstCRUDDAL.csproj", "{1F64E951-D362-4F5E-B28D-0B191DC2F902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_AutomapperWebTask", "7_AutomapperWebTask\7_AutomapperWebTask.csproj", "{A13617D0-B5B3-4DEE-BAE4-0BD7814F5616}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_AutomapperWebTask", "7_AutomapperWebTask\7_AutomapperWebTask.csproj", "{A13617D0-B5B3-4DEE-BAE4-0BD7814F5616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_AutomapperDAL", "7_AutomapperDAL\7_AutomapperDAL.csproj", "{4C9A433F-9FB1-42CE-A84C-956DE3CBA581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_AutomapperDAL", "7_AutomapperDAL\7_AutomapperDAL.csproj", "{4C9A433F-9FB1-42CE-A84C-956DE3CBA581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_StoredProceduresWithEFWebTask", "8_StoredProceduresWithEFWebTask\8_StoredProceduresWithEFWebTask.csproj", "{9B7138C0-B008-4E66-87CC-68B167850CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_StoredProceduresWithEFWebTask", "8_StoredProceduresWithEFWebTask\8_StoredProceduresWithEFWebTask.csproj", "{9B7138C0-B008-4E66-87CC-68B167850CC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_StoredProceduresWithEFDAL", "8_StoredProceduresWithEFDAL\8_StoredProceduresWithEFDAL.csproj", "{747C2CAB-79D5-4F96-9CBF-C3693A480D11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_StoredProceduresWithEFDAL", "8_StoredProceduresWithEFDAL\8_StoredProceduresWithEFDAL.csproj", "{747C2CAB-79D5-4F96-9CBF-C3693A480D11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_ImageOperationsWebTask", "9_ImageOperationsWebTask\9_ImageOperationsWebTask.csproj", "{90352606-654D-4359-AD0A-A53FF5F81954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_ImageOperationsWebTask", "9_ImageOperationsWebTask\9_ImageOperationsWebTask.csproj", "{90352606-654D-4359-AD0A-A53FF5F81954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_ImageOperationsDAL", "9_ImageOperationsDAL\9_ImageOperationsDAL.csproj", "{F8028E54-38C6-4B42-BB31-83F67179E1EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_ImageOperationsDAL", "9_ImageOperationsDAL\9_ImageOperationsDAL.csproj", "{F8028E54-38C6-4B42-BB31-83F67179E1EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CascadingDropdownListWebTask", "10_CascadingDropdownListWebTask\10_CascadingDropdownListWebTask.csproj", "{B44EC292-F93D-4FFB-871B-0CA7DD07EE59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_CascadingDropdownListWebTask", "10_CascadingDropdownListWebTask\10_CascadingDropdownListWebTask.csproj", "{B44EC292-F93D-4FFB-871B-0CA7DD07EE59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CascadingDropdownListDAL", "10_CascadingDropdownListDAL\10_CascadingDropdownListDAL.csproj", "{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_CascadingDropdownListDAL", "10_CascadingDropdownListDAL\10_CascadingDropdownListDAL.csproj", "{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_SearchSortPagingTask", "11_SearchSortPagingTask\11_SearchSortPagingTask.csproj", "{087CE8D1-AA99-4F2B-B3F5-71E139BE9CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_SearchSortPagingDAL", "11_SearchSortPagingDAL\11_SearchSortPagingDAL.csproj", "{BAC93EB4-BE45-4827-B273-696539CA8E28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F44EC7A-FA67-4649-A289-7BE0E635E6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087CE8D1-AA99-4F2B-B3F5-71E139BE9CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087CE8D1-AA99-4F2B-B3F5-71E139BE9CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087CE8D1-AA99-4F2B-B3F5-71E139BE9CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087CE8D1-AA99-4F2B-B3F5-71E139BE9CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC93EB4-BE45-4827-B273-696539CA8E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC93EB4-BE45-4827-B273-696539CA8E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC93EB4-BE45-4827-B273-696539CA8E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC93EB4-BE45-4827-B273-696539CA8E28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
