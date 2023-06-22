@@ -75,6 +75,7 @@ namespace _11_SearchSortPagingTask.Controllers
 
             if (!string.IsNullOrEmpty(sortColumn))
             {
+                ViewBag.SortColumn = sortColumn;
                 ViewBag.SortOrderName = sortOrder;
                 ViewBag.SortOrderAddress = sortOrder;
                 ViewBag.SortOrderDepartmentId = sortOrder;
